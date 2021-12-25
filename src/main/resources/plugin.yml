@@ -1,0 +1,15 @@
+name: DiamondEconomy
+version: '${project.version}'
+main: me.yailya.diamondeconomy.DiamondEconomy
+authors: [ ya-ilya ]
+website: github.com/ya-ilya/DiamondEconomyRewrite
+depend: [ Vault ]
+commands:
+  deposit:
+    description: "Translates your diamonds into money."
+    usage: "/deposit <Count/all>"
+    aliases: [ dep ]
+  withdraw:
+    description: "Translates your money into diamonds."
+    usage: "/withdraw <Count/all>"
+    aliases: [ with ]
